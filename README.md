@@ -4,7 +4,10 @@
 - An example of a grid created with SArDeGnA and imported in Google Maps as KML file :
 
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1nrIEkZOveyefdghtYO-fclhb6LbQpB2b" width="640" height="480"></iframe>
+![Example of SArDeGnA Grid](https://imgur.com/a/cAs9515)
+
+
+- [Full Google map](https://drive.google.com/open?id=1nrIEkZOveyefdghtYO-fclhb6LbQpB2b&usp=sharing)
 
 
 ## The Design: ( a spatial grid in one line of python code)
@@ -105,4 +108,4 @@ print(sys.path)
 
 ## Authors
 
-     ** Antonio Penta
+Antonio Penta
