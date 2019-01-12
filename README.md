@@ -4,7 +4,7 @@
 - An example of a grid created with SArDeGnA and imported in Google Maps as KML file :
 
 
-![Example of SArDeGnA Grid](https://imgur.com/a/cAs9515)
+![Example of SArDeGnA Grid](https://i.imgur.com/5nq2JH9.png)
 
 
 - [Full Google map](https://drive.google.com/open?id=1nrIEkZOveyefdghtYO-fclhb6LbQpB2b&usp=sharing)
