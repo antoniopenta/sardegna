@@ -127,8 +127,11 @@ ipython kernel install --user --name=sardegna
 
 ## Donations
 
-- ** If you found this code useful, please condider to make a donation to [AVSI](https://www.avsi.org/en/) **
+![AVSI](https://i.imgur.com/oRnsKLL.jpg)
 
+
+- **If you found this code useful, please condider to make a donation to [AVSI](https://www.avsi.org/en/)**
+    - https://www.avsi.org/en/country/
     - http://www.avsi-usa.org/donate.html
     - https://www.avsi.org/it/donation/
 
