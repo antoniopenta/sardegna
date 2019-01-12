@@ -10,7 +10,7 @@
 - [Full Google map](https://drive.google.com/open?id=1nrIEkZOveyefdghtYO-fclhb6LbQpB2b&usp=sharing)
 
 
-## The Design: ( a spatial grid in one line of python code)
+## The Design Principle: A Spatial Grid in 1 line of code!
 
 - The framework has a set of classes and related functions useful to create a grid to organize your spatial data.
 
