@@ -18,14 +18,21 @@
 ```python
  Grid().create_grid([lng_center, lat_center, radius_center], radius_cell)
  ```
-- lng_center is the center of the grid specified in longitude
-- lat_center is the center of the grid specified in latitude
-- radius_center is the radius of the grid
-- radius_cell is the radius of the cell within the grid
+    - lng_center is the center of the grid specified in longitude
+    - lat_center is the center of the grid specified in latitude
+    - radius_center is the radius of the grid
+    - radius_cell is the radius of the cell within the grid
 
 - Then, you have a set of primitives that will help you to manage the POI within the grid.
 
 ## Dependencies
+
+- Python 3.*
+
+- Libraries in requirements.txt:
+```bash
+ pip install -r requirements.txt
+```
 
 - [GDAL](https://www.gdal.org/) - Geospatial Data Abstraction Library (GDAL2).
 - Python Binding for GDAL
@@ -87,22 +94,35 @@ $ pip install -ee .
 $ jupyter nbextension install --py --symlink --sys-prefix ipyleaflet
 $ jupyter nbextension enable --py --sys-prefix ipyleaflet
 ```
-- The, you need to be sure to enable the extension from the Jupyter notebook installed in your virtual env.
-- In my case, I followed the instructions detailed [here](https://github.com/jupyter-widgets/ipyleaflet) under the Installation session, ensuring to lunch 'jupyter labextension .. ' as '/path_your_env/jupyter labextension .. '
 
-## Tutorial
+## Jupyter Notes
 
-- - The tutorial is a Jupyter notebook (TutorialFramework.ipynb) saved in the main folder
+** Be sure to use ipython and jupyter from your virtual env **
 
-- Be sure to have Jupyter installed in the virtual env that contains the GDAL binding,
-- Be sure to lunch the notebook with the virtual env that contains the GDAL binding, a good explanation of how to have
-a Jupyter notebook on the top of predefined virtual env can be found (here)[https://anbasile.github.io/programming/2017/06/25/jupyter-venv/]
-- Be sure to have the Ipyleaflet extension, please read the session above.
+- Be sure that the virtual env has the GDAL binding,
 
 - To check if Jupyter notebook is using the right env, you can print the sys.path and check the path:
 ```python
 import sys
 print(sys.path)
+```
+
+- Be sure to have the Ipyleaflet extension (session above)
+
+- To enable that Jupyter notebook use your virtual env [instructions here](https://github.com/jupyter-widgets/ipyleaflet) under the Installation session, ensuring to lunch 'jupyter labextension .. ' as '/path_your_env/jupyter labextension .. '
+
+- In my case, first  I activate the virtual env used for this project, then I run:
+
+```bash
+pip install ipykernel
+ipython kernel install --user --name=sardegna
+```
+
+## Tutorial
+
+- Lunch the jupyter pointing to the main folder:
+```bash
+ ~/Documents/virtualenv/sardegna/bin/jupyter notebook --notebook-dir=./
 ```
 
 
