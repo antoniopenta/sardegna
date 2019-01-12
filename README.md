@@ -125,6 +125,15 @@ ipython kernel install --user --name=sardegna
  ~/Documents/virtualenv/sardegna/bin/jupyter notebook --notebook-dir=./
 ```
 
+## Donations
+
+- ** If you found this code useful, please condider to make a donation to [AVSI](https://www.avsi.org/en/) **
+
+    - http://www.avsi-usa.org/donate.html
+    - https://www.avsi.org/it/donation/
+
+Many thanks!
+
 
 ## Authors
 
