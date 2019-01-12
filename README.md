@@ -3,6 +3,7 @@
 - This framework can help you to manage Point of Interests (i.e. pubs, restaurant) or points related to trajectories.
 - An example of a grid created with SArDeGnA and imported in Google Maps as KML file :
 
+
 <iframe src="https://www.google.com/maps/d/embed?mid=1nrIEkZOveyefdghtYO-fclhb6LbQpB2b" width="640" height="480"></iframe>
 
 
@@ -100,3 +101,8 @@ a Jupyter notebook on the top of predefined virtual env can be found (here)[http
 import sys
 print(sys.path)
 ```
+
+
+## Authors
+
+     ** Antonio Penta
